@@ -1,0 +1,7 @@
+"Domain verification record set:"
+"Record name","Record type","Record Value"
+"_amazonses.proschoolonline.co","TXT","CxjiDRImDtq9wVJFmZpHmp2lkAOVpx152VYhy67h67s="
+
+"Alternate domain verification record:"
+"Record name","Record type","Record Value"
+"proschoolonline.co","TXT","amazonses:CxjiDRImDtq9wVJFmZpHmp2lkAOVpx152VYhy67h67s="
