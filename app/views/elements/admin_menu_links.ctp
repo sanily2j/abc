@@ -17,17 +17,17 @@
                     <ul class="levels">
                         <li><a href="#">Company Masters  &gt;</a>
                             <ul>
-                                <li><a href="/admin/company_types/"><?php echo __('company types'); ?></a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/company_types/"><?php echo __('company types'); ?></a></li>
 <!--                                <li><a href="/admin/companies/">Name of Company</a></li>-->
                             </ul>
                         </li>
                         <li><a href="#">Geolocation Masters  &gt;</a>
                             <ul>
-                                <li><a href="/admin/countries/">Country</a></li>
-                                <li><a href="/admin/zones/">Zone</a></li>
-                                <li><a href="/admin/states/">State</a></li>
-                                <li><a href="/admin/districts/">District</a></li>
-                                <li><a title="City" href="/admin/cities/">City</a>
+                                <li><a href="<?php echo $this->base;?>/admin/countries/">Country</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/zones/">Zone</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/states/">State</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/districts/">District</a></li>
+                                <li><a title="City" href="<?php echo $this->base;?>/admin/cities/">City</a>
                             </ul>
                         </li>
 <!--                        <li><a href="#">User Masters  &gt;</a>
@@ -39,55 +39,55 @@
                         </li>-->
                         <li><a href="#">Auditor Masters  &gt;</a>
                             <ul>
-                                <li><a href="/admin/auditor_types/">Auditor Type</a></li>
-                                <li><a href="/admin/auditor_firms/">Auditor Firms</a></li>
-                                <li><a href="/admin/auditor_branches/">Auditor Branches</a></li>
-                                <li><a href="/admin/partners/">Partners</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/auditor_types/">Auditor Type</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/auditor_firms/">Auditor Firms</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/auditor_branches/">Auditor Branches</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/partners/">Partners</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Fee Slab Masters  &gt;</a>
                             <ul>                                
-                                <li><a href="/admin/fee_slabs/">Fee Slabs</a></li>                                
+                                <li><a href="<?php echo $this->base;?>/admin/fee_slabs/">Fee Slabs</a></li>                                
                             </ul>
                         </li>
                         <li><a href="#">Email Notifications  &gt;</a>
                             <ul>                                
-                                <li><a href="/admin/notifications/">Email Notifications</a></li>                                
+                                <li><a href="<?php echo $this->base;?>/admin/notifications/">Email Notifications</a></li>                                
                             </ul>
                         </li>
                         <li><a href="#">Membership Masters  &gt;</a>
                             <ul>                                
-                                <li><a href="/admin/membership_types/">Membership Types</a></li>                                
-                                <li><a href="/admin/member_statuses/">Member Statuses</a></li>                                
+                                <li><a href="<?php echo $this->base;?>/admin/membership_types/">Membership Types</a></li>                                
+                                <li><a href="<?php echo $this->base;?>/admin/member_statuses/">Member Statuses</a></li>                                
                             </ul>
                         </li>
                         <li><a href="#">Period Masters  &gt;</a>
                             <ul>
-                                <li><a href="/admin/regular_periods/">Regular Period</a></li>
-                                <li><a href="/admin/special_periods/">Special Period</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/regular_periods/">Regular Period</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/special_periods/">Special Period</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Master for Registration  &gt;</a>
                             <ul>
-                                <li><a href="/admin/publication_types/">Publication Types</a></li>
-                                <li><a href="/admin/center_types/">Center Types</a></li>
-                                <li><a href="/admin/frequencies/">Frequencies</a></li>
-                                <li><a href="/admin/membership_types/">Membership Types</a></li>
-                                <li><a href="/admin/frequency_types/">Frequencies Types</a></li>
-                                <li><a href="/admin/categories/">Categories</a></li>
-                                <li><a href="/admin/languages/">Language</a></li>
-                                <li><a href="/admin/representative_types/">Representative Types</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/publication_types/">Publication Types</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/center_types/">Center Types</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/frequencies/">Frequencies</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/membership_types/">Membership Types</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/frequency_types/">Frequencies Types</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/categories/">Categories</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/languages/">Language</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/representative_types/">Representative Types</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Masters for Invoice  &gt;</a>
                             <ul>
-                                <li><a href="/admin/taxes/">Tax</a></li>
-                                <li><a href="/admin/certificate_types/">Certificate Types / Cost</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/taxes/">Tax</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/certificate_types/">Certificate Types / Cost</a></li>
                             </ul>
                         </li>
                         <li><a title="Masters for Certfication" href="#">Masters for Certfication  &gt;</a>
                             <ul>
-                                <li><a href="/admin/reasons/">Reason</a></li>
+                                <li><a href="<?php echo $this->base;?>/admin/reasons/">Reason</a></li>
                             </ul>
                         </li>                        
                     </ul>   
@@ -108,9 +108,9 @@
                 <div class="col_1 firstcolumn">
                 
                     <ul class="levels">
-                        <li><a href="/admin/users/">Users</a></li> 
-                        <li><a href="/admin/publications/">Name of Publications</a></li> 
-                        <li><a href="/admin/member_statuses/">Membership Status</a></li>
+                        <li><a href="<?php echo $this->base;?>/admin/users/">Users</a></li> 
+                        <li><a href="<?php echo $this->base;?>/admin/publications/">Name of Publications</a></li> 
+                        <li><a href="<?php echo $this->base;?>/admin/member_statuses/">Membership Status</a></li>
                         <li><a title="Masters for Certfication" href="#">New Registration  &gt;</a>
                             <ul>
                                 <li><?php echo $this->Html->link('New Publisher', array('action' => 'add', 'controller' => 'memberships', 'admin' => true, 'membership_type_id' => 5), array('class' => 'register', 'escape' => false, 'title' => 'Publisher')); ?></li>
@@ -139,7 +139,7 @@
                 <div class="col_1 firstcolumn">
                 
                     <ul class="levels">
-                        <li><a href="/admin/qualifying_circulations/">Incoming Certificate</a></li>                         
+                        <li><a href="<?php echo $this->base;?>/admin/qualifying_circulations/">Incoming Certificate</a></li>                         
                         <li><a title="Masters for Certication" href="#">Statuses  &gt;</a>
                             <ul>
                                 <li><?php echo $this->Html->link('Not Received', array('action' => 'index', 'controller' => 'qualifying_circulations', 'admin' => true, 'qualifying_circulation_status_id' => 1), array('class' => 'register', 'escape' => false, 'title' => 'Not Received')); ?></li>
@@ -158,8 +158,8 @@
                             </ul>
                         </li>
 <!--                        <li><a href="/admin/qualifying_circulations/">Statuses</a></li>-->
-                        <li><a href="/admin/printing_center_auditor_branches/">Auditors - Certificate</a></li>
-                        <li><a href="/admin/surprise_checks/">Surprise Checks</a></li>
+                        <li><a href="<?php echo $this->base;?>/admin/printing_center_auditor_branches/">Auditors - Certificate</a></li>
+                        <li><a href="<?php echo $this->base;?>/admin/surprise_checks/">Surprise Checks</a></li>
                     </ul>   
                      
                 </div>
@@ -192,7 +192,7 @@
             {
                 ?>
             <li class="right"><?php echo $this->Html->link(__('logout', true), '/users/logout') /*. ' (' . $this->Session->read('Auth.User.username') . ')' */; ?><!-- Begin Contact Item -->                
-            <li class="right"><a href="/users/change_password/">Change Password</a></li>
+            <li class="right"><a href="<?php echo $this->base;?>/users/change_password/">Change Password</a></li>
             </li><!-- End Contact Item -->
             <?php                
             }
