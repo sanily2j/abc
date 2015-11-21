@@ -5,6 +5,7 @@
  * and open the template in the editor.
  */
 ?>
+
 <ul class="menu"><!-- BEGIN MENU -->
             <li><a href="<?php echo $this->base;?>/client/"><?php echo __('Dashboard'); ?>
                                    <?php $publicationNameInSession = $this->Session->read('Auth.Publication.publication_name'); echo ($publicationNameInSession && $this->Session->read('Auth.Membership.member_status_id') > 0) ? ' - ' . ucwords($this->Session->read('Auth.Publication.publication_name')) : ''; ?>

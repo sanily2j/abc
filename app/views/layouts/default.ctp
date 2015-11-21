@@ -53,7 +53,6 @@
                 </div>
 		<div id="content">			
 			
-			
 			<div style="clear:both;">&nbsp;</div>
 			
 			<?php
